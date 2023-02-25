@@ -354,6 +354,17 @@ font-size: 14px;
   
 }
 
+
+/* image-service  */
+.image-service i{
+  font-size: 65px;
+  
+}
+
+
+
+
+
 /* contact-section  */
 
 
@@ -488,6 +499,13 @@ text-transform: capitalize;
   padding: 20px;
 }
 
+/* service logo and other  */
+
+.head-service h3:hover{
+color: red;
+cursor: pointer;
+transition: all 0.42s ease;
+}
 
 
 /* responsive css */
@@ -620,4 +638,60 @@ text-transform: capitalize;
     padding: 0 0 ;
     font-size: 15px;
   }
+}
+
+
+@media(max-width:1250px){
+  .service-main{
+    padding: 0 10% !important;
+  }
+}
+@media(max-width:1160px){
+  .service-main{
+    padding: 0 8% !important;
+  }
+}
+@media(max-width:1100px){
+  .service-main{
+    padding: 0 6% !important;
+  }
+}
+@media(max-width:1050px){
+  .service-main{
+    padding: 0 4% !important;
+  }
+}
+@media(max-width:990px){
+  .service-main{
+    padding: 0 2% !important;
+  }
+}
+@media(max-width:990px){
+  .service-main{
+  display: inline-flex;
+  flex-direction: column;
+align-items: center;
+gap: 50px;
+/* transition: all 1s ease; */
+transition-duration: 3s;
+  }
+}
+
+@media(max-width:1000px){
+  .image-service{
+    padding-left: 0px !important;
+    border-left: none !important;
+    gap: 10px;
+  }
+  .image-service h6{
+font-size: 11px !important;
+  }
+}
+
+@media(max-width:990px){
+  .image-service{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+  }
+  
 }
